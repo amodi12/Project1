@@ -1,0 +1,50 @@
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: turquoise;
+    color: red;
+    padding: 1em 0;
+    text-align: center;
+}
+
+nav ul {
+    padding: 0;
+    list-style: none;
+    background: #444;
+    text-align: center;
+    margin: 0;
+}
+
+nav li {
+    display: inline;
+}
+
+nav a {
+    text-decoration: none;
+    color: greenyellow;
+    padding: 14px 20px;
+    display: inline-block;
+}
+
+nav a.active, nav a:hover {
+    background: #555;
+    color: greenyellow;
+}
+
+main {
+    padding: 15px;
+    background-color: gold;
+    color: red;
+}
+
+footer {
+    text-align: center;
+    padding: 1em 0;
+    background-color: #333;
+    color: white;
+}
